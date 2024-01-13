@@ -1,0 +1,10 @@
+class Homeuser extends StatefulWidget {
+
+  final String username;
+  final String password;
+  late String login_id;
+  Homeuser({Key? key, required this.login_id, required this.username, required this.password}) : super(key: key);
+
+  @override
+  _HomeuserState createState() => _HomeuserState();
+}
